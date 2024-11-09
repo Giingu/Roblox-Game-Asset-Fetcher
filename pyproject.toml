@@ -1,0 +1,10 @@
+[project]
+name = "repl-nix-roblox-game-asset-fetcher"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "alive-progress>=3.2.0",
+    "requests>=2.32.3",
+    "tqdm>=4.67.0",
+]

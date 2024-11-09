@@ -1,0 +1,15 @@
+entrypoint = "main.py"
+modules = ["python-base-3.13"]
+
+[nix]
+channel = "stable-24_05"
+
+[unitTest]
+language = "python3"
+
+[gitHubImport]
+requiredFiles = [".replit"]
+
+[deployment]
+run = ["python3", "main.py"]
+deploymentTarget = "cloudrun"
